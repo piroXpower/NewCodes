@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/IndianUB")]]) 
+                [[InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/IndianUB")]]), 
             parse_mode=ParseMode.HTML,
         )
 
