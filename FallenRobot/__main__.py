@@ -81,25 +81,22 @@ buttons = [
     [
         InlineKeyboardButton(
             text="✗ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✗", url="t.me/Xd?startgroup=true"),
-    ],
-    [
+    ],[
         InlineKeyboardButton(
-            text="✗ ʜᴇʟᴘ & ᴄᴍᴅs​​​ ✗", callback_data="help_back"),
-    ],
+            text="[► sᴜᴘᴘᴏʀᴛ ◄]", url="https://t.me/IndianUB"
+        ),
+        InlineKeyboardButton(
+            text="[► ʜᴇʟᴘ ​​​◄]", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="[► ᴜᴘᴅᴀᴛᴇs ◄]", url="https://t.me/IndianUBOfficial"
+        ),
+    ],   
     [
         InlineKeyboardButton(
             text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", callback_data="fallen_"),
         InlineKeyboardButton(
             text="✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✗", callback_data="source_"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/rfc_team"
-        ),
-        InlineKeyboardButton(
-            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/deewana_mahadev_ka"
-        ),
-    ],
+    ],    
 ]
 
 FallenRobot_IMG = "https://te.legra.ph/file/3ba969b180c0066a0c0f3.jpg"
