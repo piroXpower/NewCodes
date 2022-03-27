@@ -81,8 +81,9 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✗", url="t.me/Xd?startgroup=true"),
-    ],[
+            text="✗ ᴀᴅᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✗", url="t.me/Xd?startgroup=true"),
+    ],
+    [
         InlineKeyboardButton(
             text="[► sᴜᴘᴘᴏʀᴛ ◄]", url="https://t.me/IndianUB"
         ),
