@@ -87,8 +87,7 @@ buttons = [
         InlineKeyboardButton(
             text="[► sᴜᴘᴘᴏʀᴛ ◄]", url="https://t.me/IndianUB"
         ),
-        InlineKeyboardButton(
-            text="[► ʜᴇʟᴘ ​​​◄]", callback_data="help_back"),
+        
         InlineKeyboardButton(
             text="[► ᴜᴘᴅᴀᴛᴇs ◄]", url="https://t.me/IndianUBOfficial"
         ),
@@ -97,7 +96,7 @@ buttons = [
         InlineKeyboardButton(
             text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", callback_data="fallen_"),
         InlineKeyboardButton(
-            text="✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✗", callback_data="source_"),
+            text="[► ʜᴇʟᴘ ​​​◄]", callback_data="help_back"),
     ],    
 ]
 
