@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [𝐏𝐚𝐠𝐚𝐥𝐑𝐨𝐛𝐨𝐭](https://telegra.ph/file/e410bc0eb5aa11574c3b8.jpg) 」────
+────「 [𝗞𝗶𝗻𝗴𝗫𝗹𝗕𝗼𝘁](https://telegra.ph/file/e410bc0eb5aa11574c3b8.jpg) 」────
 *I am an Anime themed advance group management bot with a lot of Sexy Features.*
 ➛ Try The Help Buttons Below To Know My Abilities ××"""
 
