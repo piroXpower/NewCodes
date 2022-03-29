@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1356469075  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "anonymous_was_bot"
-    SUPPORT_CHAT = "DevilsHeavenMF"  # Your own group for support, do not add the @
+    API_ID = 1714588  # integer value, dont use ""
+    API_HASH = "78c27bf90c81f15a8af4aa0aeeadfc42"
+    TOKEN = "2133280461:AAEvV3beTymw46-6XY9QOGDiycCRuX8f3Oo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1600454750  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "bossnup"
+    SUPPORT_CHAT = "Hindi_English_Chatting_Group"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001686672798
+        -1001735845731
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001686672798
+        -1001735845731
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://doadmin:lz8f5gJ7m0cql0Op@db-postgresql-nyc3-43029-do-user-10552000-0.b.db.ondigitalocean.com:25060/defaultdb"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
