@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text(
+        update.effective_message.reply_photo(
            FALLENROBOT_IMG, "ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>\nᴀʟʟ 𝗗𝗘𝗧𝗔𝗜𝗟 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:-\nᴘʏᴛʜᴏɴ:- 𝟹.𝟷𝟶.𝟶\nᴛᴇʟᴇᴛʜᴏɴ:- 𝟷.𝟸𝟺.𝟶\nᴄʜᴀᴛʙᴏᴛ:- ʟʏɴᴅᴀ𝟹.𝟶\nsᴇʀᴠᴇʀ:- ᴜʙᴜɴᴛᴜ:- 𝟸𝟶.𝟶\n\n ᴛʜᴀɴᴋs ғᴏʀ sᴜʙsᴄʀɪʙɪɴɢ ᴍᴇ ᴇɴᴊᴏʏ sᴇʀᴠɪᴄᴇs ᴀɴᴅ sᴏɴɢs ᴡᴇ ᴡɪʟʟ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs sᴍᴀʀᴛʟʏ ᴀs ᴡᴇ ᴄᴀɴ.".format(
                 uptime
             ),
