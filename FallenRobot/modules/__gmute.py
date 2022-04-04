@@ -176,21 +176,6 @@ async def ugban(event):
  await event.reply("Yeah that user is not in my Gmute list.!?")
 
 
-@tbot.on(events.ChatAction)
-async def joinban(event):
-    if event.user_joined:
-      if is_admin(event, BOT_ID):
-        chats = gbanned.find({})
-        for c in chats:
-          if event.user_id == c["user"]:
-              try:
-               chat = event.chat_id
-               await tbot(
-                    EditBannedRequest(chat, event.user_id, BANNED_RIGHTS)
-                 )
-               await tbot.send_message(event.chat_id, f"Gbanned User Joined\n**ID:** `{event.user_id}`\n\n**Quick Action:** Banned")
-              except Exception:
-                   pass
               
 @tbot.on(events.NewMessage(pattern=None))
 async def gmute(event):
