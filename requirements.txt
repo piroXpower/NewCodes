@@ -24,6 +24,7 @@ google_trans_new
 jikanpy
 speedtest-cli
 coffeehouse
+googletrans==3.1.0a0
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
