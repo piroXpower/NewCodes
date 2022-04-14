@@ -85,9 +85,9 @@ buttons = [
                             text=f"Add Patricia To Your Group",
                             url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                     ],
-                   [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                   [                       
                        InlineKeyboardButton(text="❔ Chit Chat", url="t.me/BestiesWorld"),
+                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
                        InlineKeyboardButton(text="[► Bots ◄]", url="t.me/DeCoDeBots"),
                      ],
                     [                  
