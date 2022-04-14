@@ -83,7 +83,7 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text=f"Add Patricia To Your Group",
-                            url=f"https://t.me/@{BOT_USERNAME}?startgroup=true")
+                            url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
