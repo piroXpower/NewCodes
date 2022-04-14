@@ -74,31 +74,30 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [𝗞𝗶𝗻𝗴𝗫𝗹𝗕𝗼𝘁](https://telegra.ph/file/e410bc0eb5aa11574c3b8.jpg) 」────
-*I am an Anime themed advance group management bot with a lot of Sexy Features.*
+────「 [𝗣𝗮𝘁𝗿𝗶𝗰𝗶𝗮](https://telegra.ph/file/8f4e36ddaf268c97c7e9f.jpg) 」────
+* I am an Anime themed advance group management bot with a lots of Features..*
 ➛ Try The Help Buttons Below To Know My Abilities ××"""
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="✗ ᴀᴅᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✗", url="t.me/Xd?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="[► sᴜᴘᴘᴏʀᴛ ◄]", url="https://t.me/TheeDeCoDe"
-        ),
-        
-        InlineKeyboardButton(
-            text="[► ᴜᴘᴅᴀᴛᴇs ◄]", url="https://t.me/OfficialDeCode"
-        ),
-    ],   
-    [
-        InlineKeyboardButton(
-            text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", callback_data="fallen_"),
-        InlineKeyboardButton(
-            text="[► ʜᴇʟᴘ ​​​◄]", callback_data="help_back"),
-    ],    
-]
+                        InlineKeyboardButton(
+                            text=f"Add Patricia To Your Group",
+                            url=f"https://t.me/@{BOT_USERNAME}?startgroup=true")
+                    ],
+                   [
+                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="t.me/BestiesWorld"),
+                       InlineKeyboardButton(text="[► Bots ◄]", url="t.me/DeCoDeBots"),
+                     ],
+                    [                  
+                       InlineKeyboardButton(
+                             text="🚑 Support",
+                             url=f"https://t.me/TheeDeCoDe"),
+                       InlineKeyboardButton(
+                             text="📢 Updates",
+                             url="https://t.me/OfficialDeCoDe")
+                     ], 
+    ]
 
 FALLENROBOT_IMG = "https://te.legra.ph/file/4b76cc601ed429885305b.jpg"
 
