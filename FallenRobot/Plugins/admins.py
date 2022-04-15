@@ -34,7 +34,7 @@ def alicia_admin_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(admin)")
+                    InlineKeyboardButton(text="Back", callback_data="help_module(Chodu)")
                  ]
                 ]
             ),
@@ -56,7 +56,7 @@ def alicia_admin_ban_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(admin)")
+                    InlineKeyboardButton(text="Back", callback_data="help_module(Chodu)")
                  ]
                 ]
             ),
@@ -77,7 +77,7 @@ def alicia_admin_purge_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(admin)")
+                    InlineKeyboardButton(text="Back", callback_data="help_module(Chodu)")
                  ]
                 ]
             ),
@@ -102,7 +102,7 @@ def alicia_admin_promote_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(admin)")
+                    InlineKeyboardButton(text="Back", callback_data="help_module(Chodu)")
                  ]
                 ]
             ),
@@ -130,7 +130,7 @@ def alicia_admin_warn_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(admin)")
+                    InlineKeyboardButton(text="Back", callback_data="help_module(Chodu)")
                  ]
                 ]
             ),
@@ -153,7 +153,7 @@ def alicia_admin_mute_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(admin)")
+                    InlineKeyboardButton(text="Back", callback_data="help_module(Chodu)")
                  ]
                 ]
             ),
