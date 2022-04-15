@@ -1,8 +1,14 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from FallenRobot import telethn as tbot
-from FallenRobot import pbot as register
 from FallenRobot import ubot2 as ubot
 from asyncio.exceptions import TimeoutError
+from FallenRobot import telethn as tbot
+import os
+import re
+import bs4
+import requests
+from telethon import types
+from telethon.tl import functions
+from FallenRobot.events import register
 
 
 @register(pattern="^/sg ?(.*)")
