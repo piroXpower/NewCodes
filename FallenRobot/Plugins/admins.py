@@ -8,7 +8,7 @@ from telegram.ext import (
 )
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
-from AliciaRobot.__main__ import *
+from FallenRobot.__main__ import *
 
 
 # Buttons Function for admin module
