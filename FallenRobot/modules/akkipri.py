@@ -26,4 +26,4 @@ dispatcher.add_handler(admin_ban_callback_handler)
 dispatcher.add_handler(admin_purge_callback_handler)
 dispatcher.add_handler(admin_promote_callback_handler)
 dispatcher.add_handler(admin_warn_callback_handler)
-dispatcher.add_handler(admin_mute_callback_handler
+dispatcher.add_handler(admin_mute_callback_handler) 
