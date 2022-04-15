@@ -306,9 +306,10 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    paginate_modules(0, HELPABLE, "help")
-                ),                
+                    paginate_modules(curr_page - 1, HELPABLE, "help")
+                ),
             )
+
 
         elif prev_match:
             curr_page = int(prev_match.group(1))
