@@ -162,12 +162,12 @@ def alicia_admin_mute_callback(update, context):
 
 # Handlers start from here 
 
-admin_callback_handler = CallbackQueryHandler(alicia_admin_callback, pattern=r"aliciaadmin_", run_async=True)
-admin_ban_callback_handler = CallbackQueryHandler(alicia_admin_ban_callback, pattern=r"aliciaadminban_", run_async=True)
-admin_purge_callback_handler = CallbackQueryHandler(alicia_admin_purge_callback, pattern=r"aliciaadminpurge_", run_async=True)
-admin_promote_callback_handler = CallbackQueryHandler(alicia_admin_promote_callback, pattern=r"aliciaadminpromote_", run_async=True)
-admin_warn_callback_handler = CallbackQueryHandler(alicia_admin_warn_callback, pattern=r"aliciaadminwarn_", run_async=True)
-admin_mute_callback_handler = CallbackQueryHandler(alicia_admin_mute_callback, pattern=r"aliciaadminmute_", run_async=True)
+admin_callback_handler = CallbackQueryHandler(alicia_admin_callback, pattern=r"aliciaadmin_")
+admin_ban_callback_handler = CallbackQueryHandler(alicia_admin_ban_callback, pattern=r"aliciaadminban_")
+admin_purge_callback_handler = CallbackQueryHandler(alicia_admin_purge_callback, pattern=r"aliciaadminpurge_")
+admin_promote_callback_handler = CallbackQueryHandler(alicia_admin_promote_callback, pattern=r"aliciaadminpromote_")
+admin_warn_callback_handler = CallbackQueryHandler(alicia_admin_warn_callback, pattern=r"aliciaadminwarn_")
+admin_mute_callback_handler = CallbackQueryHandler(alicia_admin_mute_callback, pattern=r"aliciaadminmute_")
 
 
 
