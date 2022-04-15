@@ -116,6 +116,9 @@ DATA_IMPORT = []
 DATA_EXPORT = []
 CHAT_SETTINGS = {}
 USER_SETTINGS = {}
+MOD_BUTTON = {}
+MOD_BUTTONS = {}
+
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("FallenRobot.modules." + module_name)
