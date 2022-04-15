@@ -1,6 +1,6 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from FallenRobot import telethn as tbot
-from FallenRobot.events import register
+from FallenRobot import pbot as register
 from FallenRobot import ubot2 as ubot
 from asyncio.exceptions import TimeoutError
 
