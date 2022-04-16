@@ -118,7 +118,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 MOD_BUTTON = {}
 MOD_BUTTONS = {}
-
+MOD_BUTTONSS = {}
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("FallenRobot.modules." + module_name)
@@ -160,6 +160,9 @@ for module_name in ALL_MODULES:
 
     if hasattr(imported_module, "__buttons__"):
         MOD_BUTTONS[imported_module.__mod_name__.lower()] = imported_module
+
+    if hasattr(imported_module, "__buttonss__"):
+        MOD_BUTTONSS[imported_module.__mod_name__.lower()] = imported_module
 
 # do not async
 def send_help(chat_id, text, keyboard=None):
@@ -315,7 +318,8 @@ def help_button(update, context):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [   MOD_BUTTON[module].__button__,
-                        MOD_BUTTONS[module].__buttons__,
+                        MOD_BUTTONS[module].__buttons__, 
+                        MOD_BUTTONSS[module].__buttonss__,
                         [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]
                         
                     ]
