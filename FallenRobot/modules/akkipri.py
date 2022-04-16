@@ -8,17 +8,17 @@ You Just Need To Give Commands To Bot And But Will Work for You. Click On Bellow
  ❍ /admins*:* list of admins in the chat
 """
 
-__button__ = [  InlineKeyboardButton(text="Group", callback_data="aliciaadmin_"),
-            InlineKeyboardButton(text="Promote", callback_data="aliciaadminpromote_"), 
-] 
-__buttons__ = [ InlineKeyboardButton(text="Ban", callback_data="aliciaadminban_"), 
-              InlineKeyboardButton(text="Mute", callback_data="aliciaadminmute_"),              
-]
-__buttonss__ = [InlineKeyboardButton(text="Purge", callback_data="aliciaadminpurge_"),
-                InlineKeyboardButton(text="Warn", callback_data="aliciaadminwarn_"),
+__button__ = [ InlineKeyboardButton(text="Group", callback_data="aliciaadmin_"),
+            InlineKeyboardButton(text="Promote", callback_data="aliciaadminpromote_"),
+            InlineKeyboardButton(text="Purge", callback_data="aliciaadminpurge_"),
 ]
 
-__mod_name__ = "Chodu"
+__buttons__ = [InlineKeyboardButton(text="Ban", callback_data="aliciaadminban_"), 
+              InlineKeyboardButton(text="Mute", callback_data="aliciaadminmute_"),
+              InlineKeyboardButton(text="Warn", callback_data="aliciaadminwarn_"),
+]
+
+__mod_name__ = "Admins"
 
 
 dispatcher.add_handler(admin_callback_handler)
